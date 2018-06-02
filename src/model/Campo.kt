@@ -57,11 +57,4 @@ data class Campo(val linha: Int, val coluna:Int){
         callbacks.forEach { it(this, CampoEvento.REINICIALIZACAO) }
     }
 
-
-
-
-
-
-
-
 }
